@@ -337,7 +337,7 @@ AC_DEFUN_ONCE([HELP_PRINT_SUMMARY_AND_WARNINGS],
 
   if test "x$BUILDING_MULTIPLE_JVM_VARIANTS" = "xtrue"; then
     printf "NOTE: You have requested to build more than one version of the JVM, which\n"
-    printf "will result in longer build times.\n"
+    printf "will result in longer build times ADAM.\n"
     printf "\n"
   fi
 

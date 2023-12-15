@@ -45,8 +45,6 @@ include $(TOPDIR)/make/common/FindTests.gmk
 
 include $(TOPDIR)/make/MainSupport.gmk
 
-$(echo "adamfarley_on_arm")
-
 # Are we requested to ignore dependencies?
 ifneq ($(findstring -only, $(MAKECMDGOALS)), )
   DEPS := none
