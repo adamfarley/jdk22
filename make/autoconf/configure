@@ -28,8 +28,6 @@ if test "x$1" != xCHECKME; then
   exit 1
 fi
 
-echo "ADAM DEBUG"
-
 # The next argument is the absolute top-level directory path.
 # The TOPDIR variable is passed on to configure.ac.
 TOPDIR="$2"
